@@ -1,5 +1,5 @@
 # ouija64 ビルドガイド #
-[top](img/ouija64_pcb_3D.png)
+![top](img/ouija64_pcb_3D.png)
 
 ## 目次 ##
 - [ouija64 ビルドガイド](#ouija64-ビルドガイド)
