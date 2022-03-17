@@ -36,11 +36,11 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
     現時点でQMK_sekigon内にのみファイルがありますが、これはQMK側の対応待ちなためです。  
     QMKの正式対応はおそらく2022年5月末であり、その後公式のリポジトリにファームウェアをPRする予定です。  
     KMKやPRKにつきましては、作者が触れてきていないため学習から入りますので対応時期は不明ですが対応予定です。
-- uf2
+- uf2  
     Raspberry Pi Picoに導入できるようにコンパイルされたデータです。  
-- picture
+- picture  
     本ガイドのために撮影した画像です。  
-- plate
+- plate  
     スイッチ用プレート及びアクセントプレートのaiファイルが同梱されています。  
 
 ## 連絡先 ##
