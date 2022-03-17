@@ -1,8 +1,8 @@
-# ouija64 ビルドガイド #
+# ouija64 #
 ![top](img/ouija64_pcb_3D.png)
 
 ## 目次 ##
-- [ouija64 ビルドガイド](#ouija64-ビルドガイド)
+- [ouija64](#ouija64)
   - [目次](#目次)
   - [はじめに](#はじめに)
   - [ouija64の対応機能について](#ouija64の対応機能について)
@@ -31,16 +31,16 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
 ## ページマップ ##
 組み立てるにあたって使用するファイルが本リポジトリには格納されています。  
 
-- firmware_source  
+- [firmware_source](firmware_source)  
     ファームウェアを書き出すためのファイルが格納されています。  
     現時点でQMK_sekigon内にのみファイルがありますが、これはQMK側の対応待ちなためです。  
     QMKの正式対応はおそらく2022年5月末であり、その後公式のリポジトリにファームウェアをPRする予定です。  
     KMKやPRKにつきましては、作者が触れてきていないため学習から入りますので対応時期は不明ですが対応予定です。
-- uf2  
+- [uf2](uf2)  
     Raspberry Pi Picoに導入できるようにコンパイルされたデータです。  
-- picture  
+- [img](img)  
     本ガイドのために撮影した画像です。  
-- plate  
+- [plate](plate)  
     スイッチ用プレート及びアクセントプレートのaiファイルが同梱されています。  
 
 ## 連絡先 ##
