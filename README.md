@@ -29,7 +29,7 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
 ### ページマップ ###
 組み立てるにあたって使用するファイルが本リポジトリには格納されています。  
 
-- [doc](doc)
+- [doc](doc)  
     ビルドガイド等のドキュメントが格納されています。  
     ビルドガイドへのリンクはこちらへ => [『ouija64ビルドガイド』](doc/buildguide.md)  
 - [firmware_source](firmware_source)  
@@ -46,5 +46,5 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
 
 
 ### 連絡先 ###
-Twitter:[marbySAN](https://twitter.com/marbySAN)  
-Discord:marby#2153  
+Twitter: [marbySAN](https://twitter.com/marbySAN)  
+Discord: marby#2153  
