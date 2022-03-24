@@ -70,7 +70,7 @@
 | 1 | JoyStick | x1 |   |
 | 2 | JoyStick用3Dプリントカバー | x1 |  |
 
-![ouija64_list_02](../img/list_02.JPG)
+![ouija64_list_02](../img/list_02.JPG)  
 ※不足品があった場合はご連絡をお願いします。  
 
 
