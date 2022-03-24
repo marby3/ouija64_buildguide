@@ -1,20 +1,18 @@
 # ouija64 #
-![top](img/ouija64_pcb_3D.png)
+![top](img/ouija64_top.JPG)
 
-## 目次 ##
+### 目次 ###
 - [ouija64](#ouija64)
-  - [目次](#目次)
-  - [はじめに](#はじめに)
-  - [ouija64の対応機能について](#ouija64の対応機能について)
-  - [ページマップ](#ページマップ)
-  - [連絡先](#連絡先)
+    - [目次](#目次)
+    - [購入ページ](#購入ページ)
+    - [ouija64の対応機能について](#ouija64の対応機能について)
+    - [ページマップ](#ページマップ)
+    - [連絡先](#連絡先)
 
-## はじめに ##
-このページはouija64の組み立て手順を解説するページです。  
-事前に全体を読んだ上で作業を開始してください。  
-また、遊舎工房で販売中の[工具セット](https://shop.yushakobo.jp/collections/accessory/products/a9900to)と同程度の工具を所有していることを前提として解説を進めます。  
+### 購入ページ ###
+遊舎工房にて販売予定！  
 
-## ouija64の対応機能について ##
+### ouija64の対応機能について ###
 ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introduction)に対応した65%自作キーボードです。  
 
 - GL516互換キーボード  
@@ -24,18 +22,21 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
 - Cherry MX互換キーキャップ  
 - PCB用スイッチソケット  
 - SMDダイオード（1N4148W）  
-- ロータリーエンコーダー  
-- ジョイスティック  
-- インジゲーター用LED(sk6812mini-e)  
+- （オプション）ロータリーエンコーダー  
+- （オプション）ジョイスティック  
+- （オプション）インジゲーター用LED(sk6812mini-e)  
 
-## ページマップ ##
+### ページマップ ###
 組み立てるにあたって使用するファイルが本リポジトリには格納されています。  
 
+- [doc](doc)
+    ビルドガイド等のドキュメントが格納されています。  
+    ビルドガイドへのリンクはこちらへ => [『ouija64ビルドガイド』](doc/buildguide.md)  
 - [firmware_source](firmware_source)  
     ファームウェアを書き出すためのファイルが格納されています。  
-    現時点でQMK_sekigon内にのみファイルがありますが、これはQMK側の対応待ちなためです。  
+    現時点でQMK_sekigon内にのみファイルがありますが、これはsekigonさんの「[RP2040対応のQMK(非公式)を動かす](https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040)」の対応版です。
     QMKの正式対応はおそらく2022年5月末であり、その後公式のリポジトリにファームウェアをPRする予定です。  
-    KMKやPRKにつきましては、作者が触れてきていないため学習から入りますので対応時期は不明ですが対応予定です。
+    PRKやKMKにつきましては、作者が触れてきていないため学習から入りますので対応時期は不明ですが対応予定です。
 - [uf2](uf2)  
     Raspberry Pi Picoに導入できるようにコンパイルされたデータです。  
 - [img](img)  
@@ -43,6 +44,7 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
 - [plate](plate)  
     スイッチ用プレート及びアクセントプレートのaiファイルが同梱されています。  
 
-## 連絡先 ##
+
+### 連絡先 ###
 Twitter:[marbySAN](https://twitter.com/marbySAN)  
 Discord:marby#2153  
