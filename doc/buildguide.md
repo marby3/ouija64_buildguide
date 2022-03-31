@@ -60,14 +60,15 @@
 [Ouija64](https://shop.yushakobo.jp/products/XXX)に同梱されています。  
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | PCB | x1 | PCB v1.0α | ![img](../img/ouija64_top.JPG) |
-| 2 | SMDダイオード | x64 |  |  |
+| 1 | PCB | x1 | PCB v1.0α | <img src=../img/ouija64_TOP.JPG width=360> |
+| 2 | SMDダイオード | x64 |  | <img src=../img/WIP.png width=360> |
+| 3 | リセットスイッチ | x1 |  | <img src=../img/WIP.png width=360> |
 
 また、[アドオン用の購入ページ]()も用意しています。
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | JoyStick | x1 |   |   |
-| 2 | JoyStick用3Dプリントカバー | x1 |  |   |
+| 1 | JoyStick | x1 |  | <img src=../img/WIP.png width=360> |
+| 2 | JoyStick用3Dプリントカバー | x1 | 3Dプリント製 | <img src=../img/WIP.png width=360> |
 
 ※不足品があった場合はご連絡をお願いします。  
 
@@ -77,19 +78,19 @@
 レイアウトにより購入する必要のある数が変動します。  
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | Raspberry Pi Pico | x1 | [購入ページ](https://shop.yushakobo.jp/products/raspberry-pi-pico) |   |
-| 2 | 20ピン ピンヘッダー | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836946151) |   |
-| 3 | 20ピン ピンソケット | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836978919) |   |
-| 4 | SK6812MINI-E | x5 | 光らせない場合実装不要<br>[購入ページ（10個入なので1つで足ります）](https://shop.yushakobo.jp/products/sk6812mini-e-10) |   |
-| 5 | スイッチ用PCBソケット（Cherry MX互換） | x64 | [購入ページ](https://shop.yushakobo.jp/products/a01ps) |   |
-| 6 | Cherry MXスイッチ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) |   |
-| 7 | CherryMXキーキャップ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) |   |
-| 8 | ロータリーエンコーダー | x1 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/products/3762) |   |
-| 9 | スタビライザー | x適量 | レイアウトによる<br>[スナップイン](https://shop.yushakobo.jp/products/a0500st)<br>[プレートマウント](https://shop.yushakobo.jp/products/gateron-pre-lubed-plate-mounted-stabilizers-104-keyboard-set)<br> |   |
-| 10 | USBケーブル | x1 | USB A to Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m) |   |
-| 11 | パネルマウントケーブル | x1 | [購入ページ](https://shop.yushakobo.jp/products/3764) |   |
-| 12 | GL516 ケース | x1 | [購入ページ](https://shop.yushakobo.jp/products/XXXX) |   |
-| 13 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) |   |
+| 1 | Raspberry Pi Pico | x1 | [購入ページ](https://shop.yushakobo.jp/products/raspberry-pi-pico) | <img src=../img/WIP.png width=360> |
+| 2 | 20ピン ピンヘッダー | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836946151) | <img src=../img/WIP.png width=360> |
+| 3 | 20ピン ピンソケット | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836978919) | <img src=../img/WIP.png width=360> |
+| 4 | SK6812MINI-E | x5 | 光らせない場合実装不要<br>[購入ページ（10個入なので1つで足ります）](https://shop.yushakobo.jp/products/sk6812mini-e-10) | <img src=../img/WIP.png width=360> |
+| 5 | スイッチ用PCBソケット（Cherry MX互換） | x64 | [購入ページ](https://shop.yushakobo.jp/products/a01ps) | <img src=../img/WIP.png width=360> |
+| 6 | Cherry MXスイッチ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) | <img src=../img/WIP.png width=360> |
+| 7 | CherryMXキーキャップ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) | <img src=../img/WIP.png width=360> |
+| 8 | ロータリーエンコーダー | x1 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/products/3762) | <img src=../img/WIP.png width=360> |
+| 9 | スタビライザー | x適量 | レイアウトによる<br>[スナップイン](https://shop.yushakobo.jp/products/a0500st)<br>[プレートマウント](https://shop.yushakobo.jp/products/gateron-pre-lubed-plate-mounted-stabilizers-104-keyboard-set)<br> | <img src=../img/WIP.png width=360> |
+| 10 | USBケーブル | x1 | USB A to Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m) | <img src=../img/WIP.png width=360> |
+| 11 | パネルマウントケーブル | x1 | [購入ページ](https://shop.yushakobo.jp/products/3764) | <img src=../img/WIP.png width=360> |
+| 12 | GL516 ケース | x1 | [購入ページ](https://shop.yushakobo.jp/products/XXXX) | <img src=../img/WIP.png width=360> |
+| 13 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/WIP.png width=360> |
 
 ![ouija64_list_03](../img/list_03.JPG)  
 
