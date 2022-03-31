@@ -60,7 +60,7 @@
 [Ouija64](https://shop.yushakobo.jp/products/XXX)に同梱されています。  
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | PCB | x1 | PCB v1.0α | <img src=../img/ouija64_TOP.JPG width=360> |
+| 1 | PCB | x1 | PCB v1.0α | <img src=../img/ouija64_top.JPG width=360> |
 | 2 | SMDダイオード | x64 |  | <img src=../img/WIP.png width=360> |
 | 3 | リセットスイッチ | x1 |  | <img src=../img/WIP.png width=360> |
 
