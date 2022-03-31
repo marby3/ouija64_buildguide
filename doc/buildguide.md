@@ -64,7 +64,7 @@
 | 2 | SMDダイオード | x64 |  | <img src=../img/diode.JPG width=360> |
 | 3 | リセットスイッチ | x1 |  | <img src=../img/reset.JPG width=360> |
 
-また、[アドオン用の購入ページ]()も用意しています。
+また、[アドオン用のジョイスティック購入ページ]()も準備中です。
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | JoyStick | x1 |  | <img src=../img/joystick.JPG width=360> |
@@ -82,15 +82,15 @@
 | 2 | 20ピン ピンヘッダー | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836946151) | <img src=../img/pin_header.JPG width=360> |
 | 3 | 20ピン ピンソケット | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836978919) | <img src=../img/pin_socket.JPG width=360> |
 | 4 | SK6812MINI-E | x5 | 光らせない場合実装不要<br>[購入ページ（10個入なので1つで足ります）](https://shop.yushakobo.jp/products/sk6812mini-e-10) | <img src=../img/sk6812mini-e.JPG width=360> |
-| 5 | スイッチ用PCBソケット（Cherry MX互換） | x64 | [購入ページ](https://shop.yushakobo.jp/products/a01ps) | <img src=../img/Switch_socket.JPG width=360> |
-| 6 | Cherry MXスイッチ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) | <img src=../img/switch.JPG width=360> |
+| 5 | スイッチ用PCBソケット（Cherry MX互換） | x64 | [購入ページ](https://shop.yushakobo.jp/products/a01ps) | <img src=../img/switch_socket.JPG width=360> |
+| 6 | Cherry MXスイッチ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) | <img src=../img/switches.JPG width=360> |
 | 7 | CherryMXキーキャップ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) | <img src=../img/keycaps.JPG width=360> |
-| 8 | ロータリーエンコーダー | x1 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/products/3762) | <img src=../img/Encorder.JPG width=360> |
+| 8 | ロータリーエンコーダー | x1 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/products/3762) | <img src=../img/encorder.JPG width=360> |
 | 9 | スタビライザー | x適量 | レイアウトによる<br>[スナップイン](https://shop.yushakobo.jp/products/a0500st)<br>[プレートマウント](https://shop.yushakobo.jp/products/gateron-pre-lubed-plate-mounted-stabilizers-104-keyboard-set)<br> | <img src=../img/WIP.png width=360> |
 | 10 | USBケーブル | x1 | USB A to Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m) | <img src=../img/WIP.png width=360> |
 | 11 | パネルマウントケーブル | x1 | [購入ページ](https://shop.yushakobo.jp/products/3764) | <img src=../img/WIP.png width=360> |
 | 12 | GL516 ケース | x1 | [購入ページ](https://shop.yushakobo.jp/products/XXXX) | <img src=../img/WIP.png width=360> |
-| 13 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/Plate_switch01.JPG width=360> |
+| 13 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/plate_switch01.JPG width=360> |
 
 
 ## 02. レイアウトを決定する
@@ -115,18 +115,18 @@ ouija64はスイッチプレートのバリエーションが3種類あります
 ロータリーエンコーダはEC12互換品が使用できます。  
 
 ### ジョイスティック ###
-キーレイアウト1 / キーレイアウト2については、中央のキーはジョイスティックに変更可能です。  
+キーレイアウト1 / キーレイアウト2については、中央のキーをジョイスティックに変更可能です。  
 
 
 ## 03. PCBに部品を実装する ##
 この作業でははんだ付けを行います。はんだごての推奨温度は320℃です。  
-はんだごては高温になるため、この作業を開始する前にこの項目の文章をすべて読んでから開始してください。  
+はんだごては高温で危険なため、この作業を開始する前にこの項目の文章をすべて読んでから開始してください。  
 作業開始前、開始後にははんだごてのコンセントを必ず抜いてください。  
 
 ### 03.01. PCBにSMDダイオードをはんだ付けする ###
 SMDダイオードをPCBにはんだ付けします。  
 SMDダイオードには向きがあります。下記を参考にPCBの印字とダイオードの向きを合わせてはんだ付けをしてください。  
-![Diode]()
+![Diode](../img/diode_direction.png)
 
 はんだ付けは[@Salicylic_acid3さんの動画](https://twitter.com/Salicylic_acid3/status/1108798243142434816)参考にしてください。動画の手順を下記で説明します。
 1. 最初にダイオードの銅箔のうち、1箇所に予備のはんだ（予備はんだ）をつける
