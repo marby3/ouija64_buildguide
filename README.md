@@ -1,5 +1,5 @@
 # ouija64 #
-![top](img/ouija64.JPG)
+![top](img/main/ouija64.JPG)
 
 ### 目次 ###
 - [ouija64](#ouija64)
@@ -27,11 +27,11 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
 - （オプション）インジゲーター用LED(sk6812mini-e)  
 
 ### ページマップ ###
-組み立てるにあたって使用するファイルが本リポジトリには格納されています。  
+組み立てるにあたって使用するファイルが本リポジトリに格納されています。  
 
 - [doc](doc)  
     ビルドガイド等のドキュメントが格納されています。  
-    ビルドガイドへのリンクはこちらへ => [『ouija64ビルドガイド』](doc/buildguide.md)  
+    **ビルドガイドへのリンクはこちらへ => [『ouija64ビルドガイド』](doc/buildguide.md)**  
 - [firmware_source](firmware_source)  
     ファームウェアを書き出すためのファイルが格納されています。  
     現時点ではPRK Firmwareにのみ対応しています。

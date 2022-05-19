@@ -19,8 +19,10 @@
     - [03.03. ピンヘッダーとピンソケットをはんだ付けする](#0303-ピンヘッダーとピンソケットをはんだ付けする)
     - [03.04. （オプション）LEDをはんだ付けする](#0304-オプションledをはんだ付けする)
   - [04. Raspberry Pi Picoにファームウェアを書き込み、PCBの動作チェックを行う](#04-raspberry-pi-picoにファームウェアを書き込みpcbの動作チェックを行う)
-    - [04.01. Raspberry Pi Picoにファームウェアを書き込む](#0401-raspberry-pi-picoにファームウェアを書き込む)
-    - [04.02. PCBの動作チェックをする](#0402-pcbの動作チェックをする)
+    - [04.01. PRK Firmwareをダウンロードする](#0401-prk-firmwareをダウンロードする)
+    - [04.02. Raspberry Pi Picoにファームウェアを書き込む](#0402-raspberry-pi-picoにファームウェアを書き込む)
+    - [04.0. Keymap.rbもRaspberry Pi Picoに書き込む](#040-keymaprbもraspberry-pi-picoに書き込む)
+    - [04.0. PCBの動作チェックをする](#040-pcbの動作チェックをする)
   - [05. プレート類を順番に組み立てる](#05-プレート類を順番に組み立てる)
     - [05.01. スタビライザーを固定する](#0501-スタビライザーを固定する)
   - [06. スイッチを差し込みキーキャップを付ける](#06-スイッチを差し込みキーキャップを付ける)
@@ -60,15 +62,15 @@
 [Ouija64](https://shop.yushakobo.jp/products/XXX)に同梱されています。  
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | PCB | x1 | PCB v1.0α | <img src=../img/ouija64_top.JPG width=360> |
-| 2 | SMDダイオード | x64 |  | <img src=../img/diode.JPG width=360> |
-| 3 | リセットスイッチ | x1 |  | <img src=../img/reset.JPG width=360> |
+| 1 | PCB（基板） | x1 | PCB v1.0α | <img src=../img/build/ouija64_top.JPG width=360> |
+| 2 | SMDダイオード | x64 |  | <img src=../img/build/diode.JPG width=360> |
+| 3 | リセットスイッチ | x1 |  | <img src=../img/build/reset.JPG width=360> |
 
 また、[アドオン用のジョイスティック購入ページ]()も準備中です。
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | JoyStick | x1 |  | <img src=../img/joystick.JPG width=360> |
-| 2 | JoyStick用3Dプリントカバー | x1 | 3Dプリント製 | <img src=../img/WIP.png width=360> |
+| 1 | JoyStick | x1 |  | <img src=../img/build/joystick.JPG width=360> |
+| 2 | JoyStick用3Dプリントカバー | x1 | 3Dプリント製 | <img src=../img/build/WIP.png width=360> |
 
 ※不足品があった場合はご連絡をお願いします。  
 
@@ -78,31 +80,31 @@
 レイアウトにより購入する必要のある数が変動します。  
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | Raspberry Pi Pico | x1 | [購入ページ](https://shop.yushakobo.jp/products/raspberry-pi-pico) | <img src=../img/raspberry_pi_pico.JPG width=360> |
-| 2 | 20ピン ピンヘッダー | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836946151) | <img src=../img/pin_header.JPG width=360> |
-| 3 | 20ピン ピンソケット | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836978919) | <img src=../img/pin_socket.JPG width=360> |
-| 4 | SK6812MINI-E | x5 | 光らせない場合実装不要<br>[購入ページ（10個入なので1つで足ります）](https://shop.yushakobo.jp/products/sk6812mini-e-10) | <img src=../img/sk6812mini-e.JPG width=360> |
-| 5 | スイッチ用PCBソケット（Cherry MX互換） | x64 | [購入ページ](https://shop.yushakobo.jp/products/a01ps) | <img src=../img/switch_socket.JPG width=360> |
-| 6 | Cherry MXスイッチ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) | <img src=../img/switches.JPG width=360> |
-| 7 | CherryMXキーキャップ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) | <img src=../img/keycaps.JPG width=360> |
-| 8 | ロータリーエンコーダー | x1 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/products/3762) | <img src=../img/encorder.JPG width=360> |
-| 9 | スタビライザー | x適量 | レイアウトによる<br>[スナップイン](https://shop.yushakobo.jp/products/a0500st)<br>[プレートマウント](https://shop.yushakobo.jp/products/gateron-pre-lubed-plate-mounted-stabilizers-104-keyboard-set)<br> | <img src=../img/WIP.png width=360> |
-| 10 | USBケーブル | x1 | USB A to Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m) | <img src=../img/WIP.png width=360> |
-| 11 | パネルマウントケーブル | x1 | [購入ページ](https://shop.yushakobo.jp/products/3764) | <img src=../img/WIP.png width=360> |
-| 12 | GL516 ケース | x1 | [購入ページ](https://shop.yushakobo.jp/products/XXXX) | <img src=../img/WIP.png width=360> |
-| 13 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/plate_switch01.JPG width=360> |
+| 1 | Raspberry Pi Pico | x1 | [購入ページ](https://shop.yushakobo.jp/products/raspberry-pi-pico) | <img src=../img/build/raspberry_pi_pico.JPG width=360> |
+| 2 | 20ピン ピンヘッダー | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836946151) | <img src=../img/build/pin_header.JPG width=360> |
+| 3 | 20ピン ピンソケット | x2 | [購入ページ](https://shop.yushakobo.jp/products/3696?variant=42476836978919) | <img src=../img/build/pin_socket.JPG width=360> |
+| 4 | SK6812MINI-E | x5 | 光らせない場合実装不要<br>[購入ページ（10個入なので1つで足ります）](https://shop.yushakobo.jp/products/sk6812mini-e-10) | <img src=../img/build/sk6812mini-e.JPG width=360> |
+| 5 | スイッチ用PCBソケット（Cherry MX互換） | x64 | [購入ページ](https://shop.yushakobo.jp/products/a01ps) | <img src=../img/build/switch_socket.JPG width=360> |
+| 6 | Cherry MXスイッチ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) | <img src=../img/build/switches.JPG width=360> |
+| 7 | CherryMXキーキャップ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) | <img src=../img/build/keycaps.JPG width=360> |
+| 8 | ロータリーエンコーダー | x1 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/products/3762) | <img src=../img/build/encorder.JPG width=360> |
+| 9 | スタビライザー | x適量 | レイアウトによる<br>[スナップイン](https://shop.yushakobo.jp/products/a0500st)<br>[プレートマウント](https://shop.yushakobo.jp/products/gateron-pre-lubed-plate-mounted-stabilizers-104-keyboard-set)<br> | <img src=../img/build/WIP.png width=360> |
+| 10 | USBケーブル | x1 | USB A to Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m) | <img src=../img/build/WIP.png width=360> |
+| 11 | パネルマウントケーブル | x1 | [購入ページ](https://shop.yushakobo.jp/products/3764) | <img src=../img/build/WIP.png width=360> |
+| 12 | GL516 ケース | x1 | [購入ページ](https://shop.yushakobo.jp/products/XXXX) | <img src=../img/build/WIP.png width=360> |
+| 13 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/build/plate_switch01.JPG width=360> |
 
 
 ## 02. レイアウトを決定する
 ouija64はスイッチプレートのバリエーションが3種類あります。  
 キーレイアウトが3種類、左上のキーがロータリーエンコーダと変更可能です。ジョイスティックの利用もできます。  
-![ouija64_Layout](../img/ouija64_layout.png)  
+![ouija64_Layout](../img/build/ouija64_layout.png)  
 [Keyboard Layout Editor](http://www.keyboard-layout-editor.com/#/gists/fc1506d34f3c388d9b25e23d14820262)  
 
 ### キーレイアウト ###
   - キーレイアウト1  
     2～2.75U + 1U + 2～2.75Uのレイアウトです。  
-    中央のキーに関しては、2Uキーキャップ等を使用することで1.75Uまで変更可能です。  
+    中央のキーに関しては、2Uキーキャップ等を使用することで1.5Uまで変更可能です。  
   - キーレイアウト2  
     3U + 1U + 3Uのレイアウトです。  
     3Uのキーキャップが珍しいため少々難しいレイアウトになりますが、綺麗なレイアウトです。  
@@ -111,12 +113,13 @@ ouija64はスイッチプレートのバリエーションが3種類あります
     一般的なレイアウトに仕上がるため、選択肢に迷ったらこれを選ぶと良いでしょう。  
 
 ### ロータリーエンコーダ ###
-左上のキーはロータリーエンコーダと交換可能です。  
+左上のキーはロータリーエンコーダと変更可能です。  
 ロータリーエンコーダはEC12互換品が使用できます。  
+※ロータリーエンコーダをはんだ付けすると、スイッチへ交換できなくなります。  
 
 ### ジョイスティック ###
 キーレイアウト1 / キーレイアウト2については、中央のキーをジョイスティックに変更可能です。  
-
+※ジョイスティックをはんだ付けすると、スイッチへ交換できなくなります。  
 
 ## 03. PCBに部品を実装する ##
 この作業でははんだ付けを行います。はんだごての推奨温度は320℃です。  
@@ -126,7 +129,7 @@ ouija64はスイッチプレートのバリエーションが3種類あります
 ### 03.01. PCBにSMDダイオードをはんだ付けする ###
 SMDダイオードをPCBにはんだ付けします。  
 SMDダイオードには向きがあります。下記を参考にPCBの印字とダイオードの向きを合わせてはんだ付けをしてください。  
-![Diode](../img/diode_direction.png)
+![Diode](../img/build/diode_direction.png)
 
 はんだ付けは[@Salicylic_acid3さんの動画](https://twitter.com/Salicylic_acid3/status/1108798243142434816)参考にしてください。動画の手順を下記で説明します。
 1. 最初にダイオードの銅箔のうち、1箇所に予備のはんだ（予備はんだ）をつける
@@ -137,6 +140,7 @@ SMDダイオードには向きがあります。下記を参考にPCBの印字�
 
 ### 03.02. PCBにPCB用スイッチソケットをはんだ付けする ###
 PCB用スイッチソケットをPCBにはんだ付けします。  
+PCB裏面に白い塗装がされているので、
 
 ### 03.03. ピンヘッダーとピンソケットをはんだ付けする ###
 ピンヘッダーとピンソケットをはんだ付けします。  
@@ -151,13 +155,36 @@ PCBの裏面から差し込み、表面ではんだ付けをします。
 
 ### 03.04. （オプション）LEDをはんだ付けする ###
 LED（SK6812mini-e）をPCBにはんだ付けします。  
-表面から見て右上にある
+表面から見て右上にある切り欠けにはLEDをはんだ付けすることで、インジケーターのように使用することが可能になります。  
+
 
 ## 04. Raspberry Pi Picoにファームウェアを書き込み、PCBの動作チェックを行う ##
-### 04.01. Raspberry Pi Picoにファームウェアを書き込む ###
-Raspberry Pi PicoをUSBケーブルでPCに接続し、uf2ファイルをコピー&ペーストします。  
+### 04.01. PRK Firmwareをダウンロードする ###
+PRK Firmwareをダウンロードします。  
 
-### 04.02. PCBの動作チェックをする ###
+PRK Firmwareの[チュートリアルドキュメント](https://github.com/picoruby/prk_firmware/wiki/Tutorial)内にある[Releases](https://github.com/picoruby/prk_firmware/releases)のリンクを開きます。  
+基本的に一番上にある物が最新版です。  
+その中のAssetsを開き、ファイルの拡張子が.zipもしくは.gzの物をクリックするとダウンロードが開始します。  
+
+ダウンロードが完了したら、ファイルを解凍します。  
+解凍後、フォルダ内に「prk_firmware-XXXX-XXXX.uf2」のようなファイルが入っているはずです。  
+このファイルを次の工程で使用します。  
+
+### 04.02. Raspberry Pi Picoにファームウェアを書き込む ###
+先程ダウンロードしたファイルをRaspberry Pi Picoに書き込みます。
+そのためには、Raspberry Pi Picoを[BOOTSELモード](https://github.com/picoruby/prk_firmware/wiki/BOOTSEL-mode-of-RP2040)にする必要があります。
+
+一番簡単なのは、Raspberry Pi Picoの表面にあるタクタイルスイッチ（白いボタン）を押しながらUSBケーブルを接続する方法です。  
+上手く行くとRaspberry Pi PicoがUSBメモリのような見た目でPCから見ることができるようになります。  
+その後、先程04.01.にてダウンロードしたファイルをこのRaspberry Pi Picoにドラッグアンドドロップします。
+画像のように見えていれば書き込み成功です。  
+![PRK Firmware書き込み後](../img/build/PRK_firmware01.png)  
+※（E:）は環境によって異なる文字になることがあります。
+
+### 04.0. Keymap.rbもRaspberry Pi Picoに書き込む ###
+
+
+### 04.0. PCBの動作チェックをする ###
 Raspberry Pi PicoをPCBに装着し、USBケーブルでPCと接続します。
 その後、
 
