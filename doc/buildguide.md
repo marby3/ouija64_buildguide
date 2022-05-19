@@ -78,8 +78,8 @@
 また、[アドオン用のジョイスティック購入ページ]()も準備中です。
 | NO | 部品名 | 数量 | 備考 | 画像 |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | JoyStick | x1 |  | <img src=../img/build/joystick.JPG width=360> |
-| 2 | JoyStick用3Dプリントカバー | x1 | 3Dプリント製 | <img src=../img/build/joystick_cover.JPG width=360> |
+| 1 | ジョイスティック | x1 |  | <img src=../img/build/joystick.JPG width=360> |
+| 2 | ジョイスティック用3Dプリントカバー | x1 | 3Dプリント製 | <img src=../img/build/joystick_cover.JPG width=360> |
 
 ※不足品があった場合はご連絡をお願いします。  
 
