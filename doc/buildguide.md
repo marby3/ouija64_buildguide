@@ -102,7 +102,7 @@
 | 11 | パネルマウントケーブル | x1 | USB Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/3764) | <img src=../img/build/panel.JPG width=360> |
 | 12 | GL516 ケース | x1 | [購入ページ](https://shop.yushakobo.jp/products/XXXX) | <img src=../img/build/gl516_case.JPG width=360> |
 | 13 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/build/plate_switch01.JPG width=360> |
-| 14 | スイッチプレート | x1 | [バリエーション](#02-レイアウトを決定する)あり<br>[購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/build/WIP.png width=360> |
+| 14 | アクセントプレート | x1 | [購入ページ](https://shop.yushakobo.jp/products/keyboard_acrylic_plate) | <img src=../img/build/WIP.png width=360> |
 | 15 | M2 ネジ | x6（16） | スイッチプレート/アクセントプレート固定用（アクセントプレート固定時16個必要）<br>おすすめは黒小ねじかバインド小ねじ<br>[購入ページ](https://shop.yushakobo.jp/collections/all-keyboard-parts/Screw) | <img src=../img/build/screw.JPG width=360> |
 
 
