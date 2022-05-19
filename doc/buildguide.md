@@ -73,7 +73,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 | 1 | PCB（基板） | x1 | PCB v1.0α | <img src=../img/build/ouija64_top.JPG width=360> |
 | 2 | SMDダイオード | x64 |  | <img src=../img/build/diode.JPG width=360> |
-| 3 | リセットスイッチ | x1 |  | <img src=../img/build/reset.JPG width=360> |
+| 3 | タクタイルスイッチ | x1 |  | <img src=../img/build/reset.JPG width=360> |
 
 また、[アドオン用のジョイスティック購入ページ]()も準備中です。
 | NO | 部品名 | 数量 | 備考 | 画像 |
