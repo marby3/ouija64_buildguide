@@ -97,7 +97,7 @@
 | 6 | Cherry MXスイッチ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/all-switches/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81) | <img src=../img/build/switches.JPG width=360> |
 | 7 | CherryMXキーキャップ | x適量 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/collections/keycaps/cherry-mx-%E4%BA%92%E6%8F%9B-%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97) | <img src=../img/build/keycaps.JPG width=360> |
 | 8 | ロータリーエンコーダー | x1 | レイアウトによる<br>[購入ページ](https://shop.yushakobo.jp/products/3762) | <img src=../img/build/encorder.JPG width=360> |
-| 9 | スタビライザー | x適量 | レイアウトによる<br>[スナップイン](https://shop.yushakobo.jp/products/a0500st)<br>[プレートマウント](https://shop.yushakobo.jp/products/gateron-pre-lubed-plate-mounted-stabilizers-104-keyboard-set)<br> | <img src=../img/build/stab.JPG width=360> |
+| 9 | スタビライザー | x適量 | レイアウトによる<br>2Ux5 / 2Ux3+3Ux2 / 2Ux3+7U<br>[スナップイン](https://shop.yushakobo.jp/products/a0500st)<br>[プレートマウント](https://shop.yushakobo.jp/products/gateron-pre-lubed-plate-mounted-stabilizers-104-keyboard-set)<br> | <img src=../img/build/stab.JPG width=360> |
 | 10 | USBケーブル | x1 | USB A to Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/usb-cable-micro-b-0-8m) | <img src=../img/build/USB.JPG width=360> |
 | 11 | パネルマウントケーブル | x1 | USB Micro-B<br>[購入ページ](https://shop.yushakobo.jp/products/3764) | <img src=../img/build/panel.JPG width=360> |
 | 12 | GL516 ケース | x1 | [購入ページ](https://shop.yushakobo.jp/products/XXXX) | <img src=../img/build/gl516_case.JPG width=360> |
