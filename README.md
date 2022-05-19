@@ -1,5 +1,5 @@
 # ouija64 #
-![top](img/ouija64_top.JPG)
+![top](img/ouija64.JPG)
 
 ### 目次 ###
 - [ouija64](#ouija64)
@@ -34,11 +34,8 @@ ouija64は[GL516](https://salicylic-acid3.hatenablog.com/entry/gl516-introductio
     ビルドガイドへのリンクはこちらへ => [『ouija64ビルドガイド』](doc/buildguide.md)  
 - [firmware_source](firmware_source)  
     ファームウェアを書き出すためのファイルが格納されています。  
-    現時点でQMK_sekigon内にのみファイルがありますが、これはsekigonさんの「[RP2040対応のQMK(非公式)を動かす](https://github.com/sekigon-gonnoc/qmk_firmware/tree/rp2040)」の対応版です。
-    QMKの正式対応はおそらく2022年5月末であり、その後公式のリポジトリにファームウェアをPRする予定です。  
-    PRKやKMKにつきましては、作者が触れてきていないため学習から入りますので対応時期は不明ですが対応予定です。
-- [uf2](uf2)  
-    Raspberry Pi Picoに導入できるようにコンパイルされたデータです。  
+    現時点ではPRK Firmwareにのみ対応しています。
+    PRK FirmwareではRemapが使用可能であるため、QMK Firmwareとそこまで使用感に差は出ないと判断しています。  
 - [img](img)  
     本ガイドのために撮影した画像です。  
 - [plate](plate)  
